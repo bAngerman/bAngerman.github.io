@@ -1,0 +1,91 @@
+### Site Settings ###
+title               : Brendan Angerman
+description         : >-
+                      Edmonton based web developer.
+                      Turning :coffee: into code.
+                      Always learning new things.
+baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : bAngerman/portfolio               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : 
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Brendan Angerman
+  image             : https://i.imgur.com/REoqwZ5.jpg
+# behance           : your_username
+# dribbble          : your_username
+  email             : brendan.angerman@gmail.com
+# facebook          : your_username
+  github            : bAngerman
+# gitlab            : your_username
+# instagram         : your_username~
+# kaggle            : your_username
+  linkedin          : brendan-angerman-4158a8150
+# medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Disqus ###
+# disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+  google:
+    tracking_id: UA-87360311-1
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+  - "tailwind/*"
+  - "package.json"
