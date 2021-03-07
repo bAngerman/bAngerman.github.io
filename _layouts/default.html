@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en" class="text-gray-100">
+
+  {% include head.html %}
+
+  {% include analytics.html %}
+
+  <body class="h-full bg-gray-900">
+
+    <main class="container mx-auto px-4 h-full min-h-screen flex flex-col">
+      <!-- {% include navbar.html %} -->
+        
+      {{ content }}
+        
+      {% include footer.html %}
+    </main>
+    
+    {% include scripts.html %}
+
+  </body>
+
+</html>
