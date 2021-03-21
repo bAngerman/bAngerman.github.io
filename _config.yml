@@ -75,7 +75,7 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "page"
+      layout: "post"
   - scope:
       path: ""
       type: "posts"

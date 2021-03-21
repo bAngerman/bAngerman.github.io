@@ -1,28 +1,7 @@
 ---
-layout: page
+layout: default
 ---
 
-<h1 class="text-lg">{{ page.title }}</h1>
-
-<p class=""></p>
-  {{ page.date | date_to_long_string }} -  
-  <b>
-    {%- assign words = content | number_of_words -%}
-    {%- if words < 360 -%}
-      less than 1 min read time
-    {%- else -%}
-      {{ words | divided_by: 180 }} mins read time
-    {%- endif -%}
-  </b>
-
-  {%- if page.tags != empty -%}
-    {% for tag in page.tags %}
-      <a class="" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
-        <span class="">{{ tag }}</span>
-      </a>
-    {% endfor %}
-  {%- endif -%}
-
-</p>
-
-{{ content }}
+<div class="flex flex-1 flex-col page-content max-w-prose">
+  {{ content }}
+</div>

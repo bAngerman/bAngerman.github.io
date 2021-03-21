@@ -1,8 +1,8 @@
 ---
-title: Hello World
+title: Optimizing WooCommerce custom queries
 tags: [PHP]
 style: fill
-color: warning
+color: blue
 description: A test post.
 # external_url: 
 ---

@@ -14,6 +14,7 @@
   </a>
 
   <footer class="flex flex-row p-2 md:p-4 pt-0 md:pt-0">
+    <time datetime="{{ project_time }}" class="hidden">{{ project_nice_time }}</time>
     {%- for tool in project_tools -%}
       <button class="tag-{{ tool }} focus:outline-none focus:ring rounded-full px-4 mr-2 text-white bg-green-600 p-2 rounded leading-none flex items-center">{{ tool }}</button>
     {%- endfor -%}
