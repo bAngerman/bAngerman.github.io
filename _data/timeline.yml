@@ -1,17 +1,14 @@
-- title: Student, Harvard CS
-  from: 2014
+- title: Student @ NAIT, Digital Media and IT
+  from: 2016
   to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: <li>Diploma graduate with 3.7 GPA.</li>
+               <li>Strong focus on JavaScript and frameworks such as BackboneJS and React.</li>
+               <li>Built foundational skillset for both backend and frontend.</li>
 
-- title: Software Engineer, Google, UK
+- title: Web Developer @ <a class="text-blue-500" href="//paper-leaf.com" target="_blank" rel="noopener">Paper Leaf</a> 
   from: 2018
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: <li>Worked within a team, taking projects from discovery to completion.</li>
+               <li>Planned, and developed for projects spanning multiple technologies including Laravel, and React Native.</li>
+               <li>Assisted in determining time efforts for tasks and technical solutions.</li>
+               <li>Notable projects include <a class="text-blue-500" href="//paper-leaf.com/our-work/compliancebox-saas-app/" target="_blank" rel="noopener">ComplianceBox</a> and <a class="text-blue-500" href="//caaworstroads.com" target="_blank" rel="noopener">CAA Worst Roads</a>.</li>

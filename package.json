@@ -9,5 +9,6 @@
     "dev": "npx tailwindcss-cli@latest build ./tailwind/tailwind.scss -c ./tailwind/tailwind.config.js -o ./assets/app.css"
   },
   "author": "",
+
   "license": "ISC"
 }

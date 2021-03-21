@@ -1,5 +1,6 @@
 module.exports = {
   purge: {
+    enabled: true,
     content: [
       './_layouts/**/*.html',
       './_includes/**/*.html',

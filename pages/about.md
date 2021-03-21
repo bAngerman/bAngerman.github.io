@@ -5,16 +5,14 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+<h4 class="mb-2">Hi :wave:</h4>
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<h1 class="mb-2">I'm an always learning Web Developer currently located in sunny Edmonton, Canada.</h1>
 
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+<p class="mb-2">I'm always looking to improve my skillset and expand my areas of knowledge in the development world. Often that means that I am working with new and exciting technologies! In the past year I have achieved a beginner to intermediate level understanding of working with Docker in both local development, and on production environments, and in my own personal time I have made efforts to learn more modern backend languages such as golang (<a href="//github.com/bAngerman/advent-of-code-golang" target="_blank" rel="noopener">Advent of Code using golang</a>.</p>
 
-<div class="row">
+<p class="mb-2">While the interests I have described focus more on a backend oriented individual, I am confident in front end systems, whether it be JavaScript frameworks or creating a style system using <a href="//css-tricks.com/bem-101/" target="_blank" rel="noopener">BEM</a> ideologies.</p>
+
+<p class="mb-2">In my personal time you can find me going for walks with my dog, or driving, or running.</p>
+
 {% include about/timeline.html %}
-</div>

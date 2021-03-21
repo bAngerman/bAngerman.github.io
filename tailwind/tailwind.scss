@@ -13,3 +13,7 @@ body {
 .bg-black {
     background-color: #121212;
 }
+
+article {
+    backface-visibility: hidden;
+}

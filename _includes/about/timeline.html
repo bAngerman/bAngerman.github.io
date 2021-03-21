@@ -1,13 +1,22 @@
-<div class="col mt-4">
-  <div class="timeline-body">
-    {% for item in site.data.timeline %}
-      <div class="timeline-item">
-        <div class="content">
-          <h2>{{ item.title }}</h2>
-          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
-          <p>{{ item.description }}</p>
+<div class="mt-4 mb-4 md:mt-8 md:mb-8 flex flex-col">
+  {% for item in site.data.timeline %}
+    <div class="text-gray-900 mb-2 md:mb-4 flex flex-row">
+
+      <h6 class="w-28 flex flex-col justify-between">
+        <span class="rounded-full px-4 mr-2 text-white bg-green-400 p-2 rounded leading-none flex items-center justify-center">{{ item.from }}</span>
+        <div class="flex justify-center items-center h-full mr-2 pt-2 pb-2">
+          <span class="w-1 bg-gradient-to-b from-green-400 to-blue-500 h-full rounded"></span>
         </div>
+        <span class="rounded-full px-4 mr-2 text-white bg-blue-500 p-2 rounded leading-none flex items-center justify-center">{{ item.to }}</span>
+      </h6>
+
+      <div class="flex-1 rounded-lg w-full shadow-lg bg-gray-100 p-4 md:p-6">
+
+        <h2 class="text-lg mb-1">{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+
       </div>
-    {% endfor %}
-  </div>
+
+    </div>
+  {% endfor %}
 </div>

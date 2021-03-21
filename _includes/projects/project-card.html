@@ -1,21 +1,22 @@
-<div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="{{ project_url }}" class="project card text-dark">
+<article class="overflow-hidden rounded-lg bg-gray-100 transition duration-200 ease-in-out transform hover:-translate-y-2">
+  <a href="{{ project_url }}" class="block h-auto w-full">
+
     {%- if project_img -%}
-    <img id="{{ project_id }}-img" class="card-img-top" src="{{ project_img }}" alt="{{ project_name }}" />
+      <img id="{{ project_id }}-img" class="w-full" src="{{ project_img }}" alt="{{ project_name }}" />
     {%- endif -%}
-    <div class="card-body">
-      <h5 id="{{ project_id }}-name" class="card-title">
-          {%- if project_type == "remote" -%}
-          <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;
-          {%- endif -%}
+
+    <header class="flex flex-col justify-between leading-tight p-2 md:p-4">
+      <h5 id="{{ project_id }}-name" class="text-lg mb-1 text-gray-900">
         {{ project_name }}
       </h5>
-      <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
-      <p id="{{ project_id }}-tools" class="card-text">
-        {%- for tool in project_tools -%}
-        <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
-        {%- endfor -%}
-      </p>
-    </div>
+      <p id="{{ project_id }}-desc" class="no-underline text-gray-900">{{ project_desc }}</p>
+    </header>
   </a>
-</div>
+
+  <footer class="flex flex-row p-2 md:p-4 pt-0 md:pt-0">
+    {%- for tool in project_tools -%}
+      <button class="tag-{{ tool }} focus:outline-none focus:ring rounded-full px-4 mr-2 text-white bg-green-600 p-2 rounded leading-none flex items-center">{{ tool }}</button>
+    {%- endfor -%}
+  </footer>
+
+</article>
