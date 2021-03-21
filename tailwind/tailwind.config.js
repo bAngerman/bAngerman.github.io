@@ -4,6 +4,8 @@ module.exports = {
     content: [
       './_layouts/**/*.html',
       './_includes/**/*.html',
+      './_posts/**/*.md',
+      './_projects/**/*.md',
     ],
   },
   darkMode: 'media', // or 'media' or 'class'

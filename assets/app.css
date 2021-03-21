@@ -734,6 +734,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -744,6 +748,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mb-10 {
@@ -828,6 +836,10 @@ video {
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.static {
+  position: static;
 }
 
 * {
