@@ -1,14 +1,18 @@
 - title: Student @ NAIT, Digital Media and IT
   from: 2016
   to: 2018
-  description: <li>Diploma graduate with 3.7 GPA.</li>
+  description: <ul>
+               <li>Diploma graduate with 3.7 GPA.</li>
                <li>Strong focus on JavaScript and frameworks such as BackboneJS and React.</li>
                <li>Built foundational skillset for both backend and frontend.</li>
+               </ul>
 
 - title: Web Developer @ <a href="//paper-leaf.com" target="_blank" rel="noopener">Paper Leaf</a> 
   from: 2018
   to: present
-  description: <li>Worked within a team, taking projects from discovery to completion.</li>
+  description: <ul>
+               <li>Worked within a team, taking projects from discovery to completion.</li>
                <li>Planned, and developed for projects spanning multiple technologies including Laravel, and React Native.</li>
                <li>Assisted in determining time efforts for tasks and technical solutions.</li>
                <li>Notable projects include <a href="//paper-leaf.com/our-work/compliancebox-saas-app/" target="_blank" rel="noopener">ComplianceBox</a> and <a href="//caaworstroads.com" target="_blank" rel="noopener">CAA Worst Roads</a>.</li>
+               </ul>
