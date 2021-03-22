@@ -15,6 +15,6 @@ weight: 3
     <p>While the interests I have described focus more on a backend oriented individual, I am confident in front end systems, whether it be JavaScript frameworks or creating a style system using <a href="//css-tricks.com/bem-101/" target="_blank" rel="noopener">BEM</a> ideologies.</p>
 
     <p>In my personal time you can find me going for walks with my dog, or driving, or running.</p>
-</div>
 
 {% include about/timeline.html %}
+</div>
