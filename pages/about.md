@@ -5,7 +5,7 @@ permalink: /about/
 weight: 3
 ---
 
-<div class="max-w-prose">
+<div class="max-w-prose mx-auto">
     <h4>Hi :wave:</h4>
 
     <h1>I'm an always learning Web Developer currently located in sunny Edmonton, Canada.</h1>
