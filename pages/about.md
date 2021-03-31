@@ -16,5 +16,5 @@ weight: 3
 
     <p>In my personal time you can find me going for walks with my dog, or driving, or running.</p>
 
-{% include about/timeline.html %}
+    {% include about/timeline.html %}
 </div>

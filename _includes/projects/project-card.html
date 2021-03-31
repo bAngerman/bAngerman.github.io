@@ -9,14 +9,14 @@
       <h5 id="{{ project_id }}-name" class="text-lg mb-1 text-gray-900">
         {{ project_name }}
       </h5>
-      <p id="{{ project_id }}-desc" class="no-underline text-gray-900">{{ project_desc }}</p>
+      <p id="{{ project_id }}-desc" class="no-underline text-gray-900 mb-0">{{ project_desc }}</p>
     </header>
   </a>
 
-  <footer class="flex flex-row p-2 md:p-4 pt-0 md:pt-0">
+  <footer class="flex flex-row flex-wrap p-2 md:p-4 pt-0 md:pt-0">
     <time datetime="{{ project_time }}" class="hidden">{{ project_nice_time }}</time>
     {%- for tool in project_tools -%}
-      <button class="tag-{{ tool }} focus:outline-none focus:ring rounded-full px-4 mr-2 text-white bg-green-600 p-2 rounded leading-none flex items-center">{{ tool }}</button>
+      <button class="tag-{{ tool }} focus:outline-none focus:ring rounded-full px-4 mr-2 mb-2 text-white bg-green-600 p-2 rounded leading-none flex items-center">{{ tool }}</button>
     {%- endfor -%}
   </footer>
 
