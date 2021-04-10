@@ -8,7 +8,7 @@ weight: 3
 <div class="max-w-prose mx-auto">
     <h4>Hi :wave:</h4>
 
-    <h1>I'm an always learning Web Developer currently located in sunny Edmonton, Canada.</h1>
+    <h1 class="text-xl">I'm an always learning Web Developer currently located in sunny Edmonton, Canada.</h1>
 
     <p>I'm always looking to improve my skillset and expand my areas of knowledge in the development world. Often that means that I am working with new and exciting technologies! In the past year I have achieved a beginner to intermediate level understanding of working with Docker in both local development, and on production environments. In my own personal time I have made efforts to learn more modern backend languages such as golang. Some of my recent projects include the <a href="//github.com/bAngerman/advent-of-code-golang" target="_blank" rel="noopener">Advent of Code in golang</a> and an ongoing project for a <a href="/projects/1-cryptocurrency-investor-bot">cryptocurrency trading bot</a>.</p>
 

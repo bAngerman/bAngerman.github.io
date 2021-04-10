@@ -8,7 +8,7 @@ time: 2021-03-21T10:20:00Z
 ---
 
 <div class="mb-8 flex flex-row">
-    <h1 class="text-lg font-bold">Cryptocurrency Investor Bot</h1>
+    <h1 class="text-xl">Cryptocurrency Investor Bot</h1>
     <a href="//github.com/bAngerman/auto-investor" target="_blank" rel="noopener" class="fill-current ml-2">
         <svg role="img" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
             <use href="#github-svg"></use>

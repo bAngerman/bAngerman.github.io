@@ -551,18 +551,6 @@ video {
   }
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
@@ -649,6 +637,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -697,15 +689,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.m-1 {
-  margin: 0.25rem;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
 }
 
 .mx-3 {
@@ -793,16 +776,6 @@ video {
 
 .p-4 {
   padding: 1rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .px-3 {
@@ -915,6 +888,11 @@ video {
 
 .hover\:underline:hover {
   text-decoration: underline;
+}
+
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 .w-1 {
@@ -1036,8 +1014,8 @@ video {
   }
 }
 
-body {
-  font-family: 'Mukta', sans-serif;
+html {
+  font-family: 'Heebo', sans-serif;
 }
 
 .emoji {
@@ -1068,6 +1046,22 @@ ul, ol {
 
 ol {
   list-style-type: decimal;
+}
+
+.tag-WooCommerce {
+  background-color: #96588a;
+}
+
+.tag-WordPress {
+  background-color: #21759b;
+}
+
+.tag-go {
+  background-color: #00ADD8;
+}
+
+.tag-PHP {
+  background-color: #8892be;
 }
 
 @media (min-width: 640px) {

@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Mukta', sans-serif;
+html {
+    font-family: 'Heebo', sans-serif;
 }
 
 .emoji {
@@ -33,4 +33,20 @@ ol {
 
 ol {
     @apply list-decimal;
+}
+
+.tag-WooCommerce {
+    background-color: #96588a;
+}
+
+.tag-WordPress {
+    background-color: #21759b;
+}
+
+.tag-go {
+    background-color: #00ADD8;
+}
+
+.tag-PHP {
+    background-color: #8892be;
 }
