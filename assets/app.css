@@ -753,10 +753,6 @@ video {
   max-width: 72rem;
 }
 
-.max-w-prose {
-  max-width: 65ch;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1046,6 +1042,25 @@ ul, ol {
 
 ol {
   list-style-type: decimal;
+}
+
+.text-xl {
+  font-size: 3rem;
+  line-height: 1;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.inline-code {
+  padding: 0.25rem;
+  border-radius: 0.3em;
+  background: #272822;
+}
+
+div.code-toolbar > .toolbar span {
+  background: none;
+  box-shadow: none;
 }
 
 .tag-WooCommerce {

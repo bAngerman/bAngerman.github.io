@@ -35,6 +35,25 @@ ol {
     @apply list-decimal;
 }
 
+.text-xl {
+    @apply text-5xl;
+    @apply leading-normal;
+    @apply mt-4;
+    @apply mb-4;
+}
+
+.inline-code {
+    @apply p-1;
+    border-radius: 0.3em;
+    background: #272822;
+
+}
+
+div.code-toolbar > .toolbar span {
+    background: none;
+    box-shadow: none;
+}
+
 .tag-WooCommerce {
     background-color: #96588a;
 }
