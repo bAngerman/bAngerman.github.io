@@ -4,6 +4,8 @@ layout: default
 
 
 <div class="flex flex-1 flex-col page-content mx-auto w-full">
-  {% include tags.html %}
-  {{ content }}
+  <div class="max-w-prose">
+    {% include tags.html %}
+    {{ content }}
+  </div>
 </div>

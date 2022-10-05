@@ -726,6 +726,10 @@ video {
   max-width: 72rem;
 }
 
+.max-w-prose {
+  max-width: 65ch;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }

@@ -7,6 +7,7 @@ description: This project serves as a one stop compliance package for truck driv
 time: 2022-08-15T10:20:00Z
 ---
 
+
 <div class="mb-8 flex flex-row">
     <h1 class="text-xl">ComplianceBox</h1>
     <!-- <a href="//github.com/bAngerman/auto-investor" target="_blank" rel="noopener" class="fill-current flex items-center ml-4">
@@ -39,4 +40,4 @@ time: 2022-08-15T10:20:00Z
         <p>During this phase a document management system was added, which allowed drivers and administrators to manage documents associated with users, companies, and vehicles. During this phase we were focused on managing and securing file uploads to the platform. As truck drivers travelling through mountain passes can lose mobile internet, support for offline storage of these documents was also added. This was a simple system which allowed the driver to hand select documents which should be saved for offline viewing. Notifications and checks were also implemented extensively to ensure that drivers and vehicles were compliant, and reminders are in place to ensure users are notified of document expiry.</p>
 </div>
 
-<p>This project has been my largest contribution while working at Paper Leaf and I have enjoyed implementing new features in addition to iterating upon existing functionality to improve performance as the platform scales.</p
+<p>This project has been my largest contribution while working at Paper Leaf and I have enjoyed implementing new features in addition to iterating upon existing functionality to improve performance as the platform scales.</p>
