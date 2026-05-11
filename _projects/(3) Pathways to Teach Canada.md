@@ -1,7 +1,7 @@
 ---
 name: Pathways to Teach Canada
 tools: [PHP, Laravel]
-image: 
+image: https://i.imgur.com/KNHKdcM.jpeg
 description: Helping internationally educated teachers begin teaching in Canada
 external_url: https://pathwaystoteach.ca
 time: 2026-05-11T10:00:00Z
