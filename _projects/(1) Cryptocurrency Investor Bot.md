@@ -5,6 +5,7 @@ image: https://i.imgur.com/9UJcSm5.jpg
 description: This ongoing project, written with golang, acts as an automatic investment tool for trading crypto currencies through an exchange.
 external_url: 
 time: 2021-03-21T10:20:00Z
+published: false
 ---
 
 <div class="mb-8 flex flex-row">
