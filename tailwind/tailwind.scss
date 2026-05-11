@@ -78,3 +78,130 @@ div.code-toolbar > .toolbar span {
     background-color: #61DBFB;
 }
 
+.tag-Package {
+    background-color: #4f46e5;
+}
+
+/* Long-form content (blog posts + project pages) */
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    color: #f9fafb;
+}
+
+.page-content h1.text-xl {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.page-content h2 {
+    font-size: 1.875rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.page-content h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.page-content h4 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #4ade80;
+    letter-spacing: 0.01em;
+}
+
+.page-content h5 {
+    font-size: 1.125rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.page-content h6 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #d1d5db;
+}
+
+.page-content p {
+    line-height: 1.7;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+}
+
+.page-content ul,
+.page-content ol {
+    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+    line-height: 1.7;
+    list-style-position: outside;
+}
+
+.page-content ul {
+    list-style-type: disc;
+}
+
+.page-content ol {
+    list-style-type: decimal;
+}
+
+.page-content li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.25rem;
+}
+
+.page-content li::marker {
+    color: #6b7280;
+}
+
+.page-content li > p {
+    margin-bottom: 0.25rem;
+}
+
+.page-content strong {
+    font-weight: 600;
+    color: #f9fafb;
+}
+
+.page-content em {
+    color: #f3f4f6;
+}
+
+.page-content blockquote {
+    padding-left: 1rem;
+    font-style: italic;
+    color: #d1d5db;
+    border-left: 3px solid #4ade80;
+    margin: 1.5rem 0;
+}
+
+.page-content pre {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.page-content a {
+    text-decoration: underline;
+    text-decoration-color: rgba(59, 130, 246, 0.4);
+    text-underline-offset: 2px;
+    transition: color 150ms ease, text-decoration-color 150ms ease;
+}
+
+.page-content a:hover {
+    text-decoration-color: currentColor;
+}
+
