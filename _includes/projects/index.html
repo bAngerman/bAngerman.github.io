@@ -12,12 +12,13 @@
       {%- assign project_tools = project.tools -%}
       {%- assign project_time  = project.time -%}
       {%- assign project_nice_time = project.time | date_to_string -%}
-  
-      {%- if project.external_url -%}
-        {%- assign project_url = project.external_url -%}
-      {%- else -%}
-        {%- assign project_url = project.url | relative_url -%}
-      {%- endif -%}
+
+      {%- comment -%}
+        Cards always link to the internal project page. The `external_url`
+        frontmatter is rendered as a callout on the project page itself
+        (see _includes/external-link.html).
+      {%- endcomment -%}
+      {%- assign project_url = project.url | relative_url -%}
   
       {% include projects/project-card.html %}
   

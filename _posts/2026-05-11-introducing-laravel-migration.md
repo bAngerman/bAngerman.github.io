@@ -3,7 +3,7 @@ title: Introducing Laravel Migration — Data Migration Tooling
 tags: [PHP, Laravel, Package]
 image: https://i.imgur.com/BWLQFIW.jpeg
 description: A Laravel package to simplify the process of running repeatable data migrations and tracking migrated records, with developer-friendly commands and memory-safe job chunking.
-# external_url: https://github.com/paper-leaf-tech/laravel-migration
+external_url: https://github.com/paper-leaf-tech/laravel-migration
 time: 2026-05-11T11:00:00Z
 ---
 

@@ -3,7 +3,7 @@ title: Introducing Laravel Translation — Manage in Google Sheets
 tags: [PHP, Laravel, Package]
 image: https://i.imgur.com/vtTml1k.jpeg
 description: Sync Laravel translation files with a Google Spreadsheet so non-technical team members can manage translations, with surgical pull updates that preserve comments and formatting.
-# external_url: https://github.com/paper-leaf-tech/laravel-translation
+external_url: https://github.com/paper-leaf-tech/laravel-translation
 time: 2026-05-11T11:30:00Z
 ---
 

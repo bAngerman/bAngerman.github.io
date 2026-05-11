@@ -1247,6 +1247,94 @@ div.code-toolbar > .toolbar span {
   text-decoration-color: currentColor;
 }
 
+/* External link callout — shown on posts/projects that set `external_url` */
+.external-callout {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #f3f4f6;
+  transition: background-color 150ms ease, border-color 150ms ease;
+  max-width: 100%;
+}
+
+.page-content a.external-callout,
+.page-content a.external-callout:hover {
+  text-decoration: none;
+}
+
+.external-callout:hover {
+  background-color: #283242;
+  border-color: #4ade80;
+}
+
+.external-callout-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  color: #d1d5db;
+  transition: color 150ms ease;
+}
+
+.external-callout-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+.external-callout:hover .external-callout-icon {
+  color: #4ade80;
+}
+
+.external-callout-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  min-width: 0;
+}
+
+.external-callout-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #9ca3af;
+  font-weight: 600;
+  transition: color 150ms ease;
+}
+
+.external-callout:hover .external-callout-label {
+  color: #4ade80;
+}
+
+.external-callout-url {
+  font-size: 0.875rem;
+  color: #f3f4f6;
+  word-break: break-all;
+}
+
+.external-callout-arrow {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+  color: #9ca3af;
+  transition: color 150ms ease, transform 150ms ease;
+}
+
+.external-callout-arrow svg {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+}
+
+.external-callout:hover .external-callout-arrow {
+  color: #4ade80;
+  transform: translateX(2px);
+}
+
 @media (min-width: 640px) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));

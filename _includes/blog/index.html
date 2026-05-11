@@ -4,12 +4,13 @@
     {% for post in site.posts %}
       {%- assign post_nice_time = post.time | date_to_string -%}
 
-      {%- if post.external_url -%}
-        {%- assign post_url = post.external_url -%}
-      {%- else -%}
-        {%- assign post_url = post.url | relative_url -%}
-      {%- endif -%}
-  
+      {%- comment -%}
+        Cards always link to the internal post page. The `external_url`
+        frontmatter is rendered as a callout on the post page itself
+        (see _includes/external-link.html).
+      {%- endcomment -%}
+      {%- assign post_url = post.url | relative_url -%}
+
       {% include blog/post-card.html %}
     {% endfor %}
   
