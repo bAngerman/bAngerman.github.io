@@ -3,7 +3,7 @@ name: Registry Connect Co-op
 tools: [PHP, Laravel]
 image: https://i.imgur.com/AuGnqm4.jpeg
 description: Application supporting Alberta registry agents in completing online Vehicle Registration Renewals
-external_url: https://eregistry.ca
+# external_url: https://eregistry.ca
 time: 2026-05-11T10:05:00Z
 published: false
 ---
