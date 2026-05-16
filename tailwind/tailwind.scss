@@ -6,6 +6,37 @@ html {
     font-family: 'Heebo', sans-serif;
 }
 
+/* Prevent any element from forcing horizontal scroll on mobile */
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* Long-form content overflow safety */
+.page-content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.page-content img,
+.page-content video,
+.page-content iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-content pre,
+.page-content pre[class*="language-"] {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+.page-content :not(pre) > code {
+    word-break: break-word;
+}
+
 .emoji {
     @apply inline-block;
 }
