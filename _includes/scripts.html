@@ -1,1 +1,36 @@
 <script src="{{ '/assets/prism.js' | relative_url }}"></script>
+<script>
+  (function () {
+    var nav = document.getElementById('mobile-nav');
+    var toggle = document.getElementById('nav-toggle');
+    if (!nav || !toggle) return;
+
+    function open() {
+      nav.classList.add('is-open');
+      nav.setAttribute('aria-hidden', 'false');
+      toggle.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('nav-open');
+    }
+
+    function close() {
+      nav.classList.remove('is-open');
+      nav.setAttribute('aria-hidden', 'true');
+      toggle.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('nav-open');
+    }
+
+    toggle.addEventListener('click', open);
+
+    nav.querySelectorAll('[data-nav-close]').forEach(function (el) {
+      el.addEventListener('click', close);
+    });
+
+    nav.querySelectorAll('a[href]').forEach(function (el) {
+      el.addEventListener('click', close);
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && nav.classList.contains('is-open')) close();
+    });
+  })();
+</script>

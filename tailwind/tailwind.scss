@@ -37,6 +37,51 @@ html, body {
     word-break: break-word;
 }
 
+/* Timeline cards sit on a light background inside .page-content,
+   so override the dark-bg heading/link colors back to readable ones. */
+.timeline-card,
+.timeline-card p,
+.timeline-card li,
+.timeline-card strong,
+.timeline-card em {
+    color: #111827;
+}
+
+.timeline-card h1,
+.timeline-card h2,
+.timeline-card h3,
+.timeline-card h4,
+.timeline-card h5,
+.timeline-card h6 {
+    color: #111827;
+}
+
+.page-content .timeline-card a,
+.timeline-card a {
+    color: #2563eb;
+}
+
+.timeline-card li::marker {
+    color: #6b7280;
+}
+
+/* Mobile nav slideout */
+.mobile-nav.is-open {
+    pointer-events: auto;
+}
+
+.mobile-nav.is-open .mobile-nav-backdrop {
+    opacity: 0.6;
+}
+
+.mobile-nav.is-open .mobile-nav-panel {
+    transform: translateX(0);
+}
+
+body.nav-open {
+    overflow: hidden;
+}
+
 .emoji {
     @apply inline-block;
 }
