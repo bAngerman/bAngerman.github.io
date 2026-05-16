@@ -1205,31 +1205,32 @@ html, body {
 }
 
 /* Timeline cards sit on a light background inside .page-content,
-   so override the dark-bg heading/link colors back to readable ones. */
+   so override the dark-bg heading/link colors back to readable ones.
+   Scoped under `.page-content` to outrank the long-form rules defined
+   later in this file at equal specificity. */
 
-.timeline-card,
-.timeline-card p,
-.timeline-card li,
-.timeline-card strong,
-.timeline-card em {
+.page-content .timeline-card,
+.page-content .timeline-card p,
+.page-content .timeline-card li,
+.page-content .timeline-card strong,
+.page-content .timeline-card em {
   color: #111827;
 }
 
-.timeline-card h1,
-.timeline-card h2,
-.timeline-card h3,
-.timeline-card h4,
-.timeline-card h5,
-.timeline-card h6 {
+.page-content .timeline-card h1,
+.page-content .timeline-card h2,
+.page-content .timeline-card h3,
+.page-content .timeline-card h4,
+.page-content .timeline-card h5,
+.page-content .timeline-card h6 {
   color: #111827;
 }
 
-.page-content .timeline-card a,
-.timeline-card a {
+.page-content .timeline-card a {
   color: #2563eb;
 }
 
-.timeline-card li::marker {
+.page-content .timeline-card li::marker {
   color: #6b7280;
 }
 
